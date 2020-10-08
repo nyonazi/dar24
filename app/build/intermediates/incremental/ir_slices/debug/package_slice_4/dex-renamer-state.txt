@@ -1,4 +1,0 @@
-#Thu Apr 11 10:21:48 EAT 2019
-base.0=/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/transforms/dexMerger/debug/4
-path.0=classes.dex
-renamed.0=classes.dex

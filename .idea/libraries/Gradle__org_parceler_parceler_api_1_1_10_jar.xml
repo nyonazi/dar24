@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.parceler/parceler-api/1.1.10/fa2a76976357a1609628743b3a1fccbe91d931ca/parceler-api-1.1.10.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.parceler/parceler-api/1.1.10/82f33a46ad833007cf276377b167899e4adc69d5/parceler-api-1.1.10-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.parceler/parceler-api/1.1.10/4e12dd56b6169aa4e464c1a9dc998d3f917a93ad/parceler-api-1.1.10-sources.jar!/" />
     </SOURCES>

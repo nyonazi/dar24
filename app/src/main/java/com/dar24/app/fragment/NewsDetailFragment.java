@@ -3,6 +3,7 @@ package com.dar24.app.fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,6 +32,7 @@ import com.dar24.app.model.News;
 import com.dar24.app.utility.Helpers;
 import com.dar24.app.utility.SharedPref;
 import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import org.parceler.Parcels;
 
@@ -128,9 +131,13 @@ public class NewsDetailFragment extends Fragment {
         tvPublishedAt.setText(Helpers.getTimeAgo(getActivity(),
                 Helpers.stringDateToLong(news.getPublishedAt())) + ", " + getString(R.string.by)
                 + " " + news.getAuthor());
-        Picasso.get().load(news.getThumbnail())
-                .placeholder(R.color.grey_200)
-                .into(ivThumbnail);
+        try {
+            Picasso.get().load(news.getThumbnail())
+                    .placeholder(R.color.grey_200)
+                    .into(ivThumbnail);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);

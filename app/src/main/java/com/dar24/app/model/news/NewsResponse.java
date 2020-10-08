@@ -327,7 +327,7 @@ public class NewsResponse {
 			",comment_status = '" + commentStatus + '\'' + 
 			",tags = '" + tags + '\'' + 
 			",ping_status = '" + pingStatus + '\'' + 
-			",meta = '" + meta + '\'' + 
+			",meta = '" + meta + '\'' +
 			",sticky = '" + sticky + '\'' + 
 			",guid = '" + guid + '\'' + 
 			",better_featured_image = '" + betterFeaturedImage + '\'' + 

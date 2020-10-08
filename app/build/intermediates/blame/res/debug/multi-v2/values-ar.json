@@ -4,41 +4,7 @@
             "outputFile": "/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/play-services-ads-17.2.0.aar/dd7606ad0532ccf8b70c0db87a64eeec/res/values-ar/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "199,266,375,437,498,571,669",
-                        "endColumns": "66,108,61,60,72,97,69",
-                        "endOffsets": "265,374,436,497,570,668,738"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "4527,4598,4711,4777,4842,4919,5021",
-                        "endColumns": "70,112,65,64,76,101,73",
-                        "endOffsets": "4593,4706,4772,4837,4914,5016,5090"
-                    }
-                },
-                {
-                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/41209bed061ddcf3943d766f85d1f50f/res/values-ar/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "188",
-                        "endOffsets": "435"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "2949",
-                        "endColumns": "188",
-                        "endOffsets": "3133"
-                    }
-                },
-                {
-                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/values-ar/values-ar.xml",
+                    "source": "/home/naamini/.gradle/caches/transforms-2/files-2.1/326aec9981d9fd49ea5ae7ab74fe5e65/appcompat-v7-27.1.1/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1a40737969d8c2d54578db28b1b9543d/res/values-ar/values-ar.xml",
+                    "source": "/home/naamini/.gradle/caches/transforms-2/files-2.1/43304b7fd913a5306c4c8870b415afd4/play-services-basement-16.2.0/res/values-ar/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "188",
+                        "endOffsets": "435"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "2949",
+                        "endColumns": "188",
+                        "endOffsets": "3133"
+                    }
+                },
+                {
+                    "source": "/home/naamini/.gradle/caches/transforms-2/files-2.1/563f04ede65ba439981c56067b95a83a/support-compat-27.1.1/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -72,7 +55,24 @@
                     }
                 },
                 {
-                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4efb1ce3e928b7ff05f2d1499d697b3a/res/values-ar/values.xml",
+                    "source": "/home/naamini/.gradle/caches/transforms-2/files-2.1/2e7918005e8b2164c14e37760b3345bd/firebase-messaging-17.5.0/res/values-ar/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4422",
+                        "endColumns": "104",
+                        "endOffsets": "4522"
+                    }
+                },
+                {
+                    "source": "/home/naamini/.gradle/caches/transforms-2/files-2.1/d04ceef8b2e7f5ce5a2c034c0598701c/play-services-base-16.0.1/res/values-ar/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -89,20 +89,20 @@
                     }
                 },
                 {
-                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.5.0.aar/91b755f24f630e7f594db2476c03c5cc/res/values-ar/values.xml",
+                    "source": "/home/naamini/.gradle/caches/transforms-2/files-2.1/9b58c349daa91f4d7d674addecedf64f/play-services-ads-17.2.0/res/values-ar/values.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "100",
-                        "endOffsets": "305"
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,266,375,437,498,571,669",
+                        "endColumns": "66,108,61,60,72,97,69",
+                        "endOffsets": "265,374,436,497,570,668,738"
                     },
                     "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4422",
-                        "endColumns": "104",
-                        "endOffsets": "4522"
+                        "startLines": "38,39,40,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "4527,4598,4711,4777,4842,4919,5021",
+                        "endColumns": "70,112,65,64,76,101,73",
+                        "endOffsets": "4593,4706,4772,4837,4914,5016,5090"
                     }
                 }
             ]

@@ -4,17 +4,7 @@
             "outputFile": "/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1a40737969d8c2d54578db28b1b9543d/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/values-v16/values-v16.xml",
+                    "source": "/home/naamini/.gradle/caches/transforms-2/files-2.1/326aec9981d9fd49ea5ae7ab74fe5e65/appcompat-v7-27.1.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/naamini/.gradle/caches/transforms-2/files-2.1/563f04ede65ba439981c56067b95a83a/support-compat-27.1.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

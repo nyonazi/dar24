@@ -4,7 +4,7 @@
             "outputFile": "/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+                    "source": "/home/naamini/.gradle/caches/transforms-2/files-2.1/31eae4e6d1a18c3c31625d3652ae4dc9/core-0.9.6.0/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

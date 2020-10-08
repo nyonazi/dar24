@@ -296,6 +296,7 @@ public class NewsRelatedDetailActivity extends BaseAppCompatActivity {
         if (Helpers.isConnected(this)) {
             EndPointService service = mRetrofit.create(EndPointService.class);
             callAuthors = service.getAuthors(authorIds, 100, 1);
+//            callAuthors = service.getAuthors(authorIds, 100, 1);
             callAuthors.enqueue(new Callback<List<AuthorResponse>>() {
                 @Override
                 public void onResponse(Call<List<AuthorResponse>> call, Response<List<AuthorResponse>> response) {

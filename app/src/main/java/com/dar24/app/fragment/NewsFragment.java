@@ -259,6 +259,7 @@ public class NewsFragment extends Fragment {
                                                         .getSizes().getBuzzmagSmall().getSourceUrl();
                                             }
                                         }
+                                        Log.e("thumbnailNE?: ", thumbnail);
                                     }
                                 }
                                 String author = "Dar24";
