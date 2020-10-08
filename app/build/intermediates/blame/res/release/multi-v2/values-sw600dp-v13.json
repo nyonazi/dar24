@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1285",
+                        "endColumns": "51",
+                        "endOffsets": "1332"
+                    }
+                },
+                {
+                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "106,175,244,314,388,464,523,594",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "170,239,309,383,459,518,589,657"
+                    }
+                },
+                {
+                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1b73a0a24046e2a04b91b99613097663/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
+                        "endLines": "2,3,4,5,6,7,8,9,10,14",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,17,18,19,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "726,786,856,927,999,1057,1115,1221,1337,1400",
+                        "endLines": "12,13,14,15,16,17,18,19,21,25",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "781,851,922,994,1052,1110,1216,1280,1395,1577"
+                    }
+                },
+                {
+                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/bottomsheet-core-1.5.3.aar/1953e8242a67050ff1100000a4f1b553/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,63",
+                        "endOffsets": "101,165"
+                    },
+                    "to": {
+                        "startLines": "2,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,662",
+                        "endColumns": "50,63",
+                        "endOffsets": "101,721"
+                    }
+                }
+            ]
+        }
+    ]
+}

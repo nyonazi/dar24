@@ -1,0 +1,102 @@
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.dar24.app"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 10
+        versionName "1.1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        //Add support for vector drawable
+        vectorDrawables.useSupportLibrary = true
+        //Keep only this resources
+        resConfigs "en","sw"
+        manifestPlaceholders = [
+                onesignal_app_id: '491025e0-dc59-4019-b614-bde1da8ede15',
+                // Project number pulled from dashboard, local value is ignored.
+                onesignal_google_project_number: 'REMOTE'
+        ]
+    }
+    buildTypes {
+        buildTypes {
+            debug {
+                minifyEnabled true
+                useProguard true
+                //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            }
+            release {
+                minifyEnabled true
+                shrinkResources true
+                useProguard true
+                //Normal proguard configuration
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                //Optimize proguard configuration
+                //proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //Parceler
+    implementation 'org.parceler:parceler-api:1.1.10'
+    annotationProcessor 'org.parceler:parceler:1.1.10'
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //Okhttp
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    //Okio
+    implementation 'com.squareup.okio:okio:1.14.0'
+    //Butterknife
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor "com.jakewharton:butterknife-compiler:8.8.1"
+    //Youtube
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    //Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //Firebase Admob
+    implementation 'com.google.firebase:firebase-ads:17.2.0'
+    //Firebase analytics
+    implementation 'com.google.firebase:firebase-core:16.0.8'
+    //Firebase messaging
+    implementation 'com.google.firebase:firebase-messaging:17.5.0'
+    //Firebase crashlytics
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.9'
+    //One signal
+    implementation 'com.onesignal:OneSignal:3.10.7'
+    //Material dialog
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    //Flipboard bottom sheet
+    implementation 'com.flipboard:bottomsheet-core:1.5.3'
+    implementation 'com.flipboard:bottomsheet-commons:1.5.3'
+    //Calligraphy
+    implementation 'io.github.inflationx:calligraphy3:3.0.0'
+    implementation 'io.github.inflationx:viewpump:1.0.0'
+    //PhotoView
+    implementation 'com.github.chrisbanes:PhotoView:2.1.3'
+    //interceptor
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    //firebase remoteConfig
+    implementation 'com.google.firebase:firebase-config:16.4.1'
+
+}
+apply plugin: 'com.google.gms.google-services'

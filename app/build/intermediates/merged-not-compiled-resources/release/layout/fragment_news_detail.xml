@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/ivThumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@color/grey_200" />
+
+            <TextView
+                android:id="@+id/tvCategory"
+                fontPath="fonts/Ubuntu-Light.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="8dp"
+                android:background="@color/brand_red"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/test_trending"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            fontPath="fonts/Ubuntu-Medium.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/test_lorem_ipsum"
+            android:textColor="@color/grey_900"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/tvPublishedAt"
+            fontPath="fonts/Ubuntu-Light.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:maxLines="1"
+            android:text="@string/test_published_author"
+            android:textColor="@color/grey_900"
+            android:textSize="12sp"
+             />
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/grey_50" />
+
+        <LinearLayout
+            android:id="@+id/llNextNews"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="72dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvNextNewsTitle"
+                android:layout_width="wrap_content"
+                android:textColor="@color/brand_red"
+                android:layout_weight="1"
+                fontPath="fonts/Ubuntu-Medium.ttf"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                app:srcCompat="@drawable/ic_keyboard_arrow_right_red_24dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPreviousNews"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="72dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                app:srcCompat="@drawable/ic_keyboard_arrow_left_red_24dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+
+            <TextView
+                android:textColor="@color/brand_red"
+                android:id="@+id/tvPreviousNewsTitle"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                fontPath="fonts/Ubuntu-Medium.ttf"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+

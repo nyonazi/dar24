@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "170",
+                        "endColumns": "51",
+                        "endOffsets": "217"
+                    }
+                },
+                {
+                    "source": "/home/naamini/.gradle/caches/transforms-1/files-1.1/bottomsheet-core-1.5.3.aar/1953e8242a67050ff1100000a4f1b553/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,63",
+                        "endOffsets": "101,165"
+                    }
+                }
+            ]
+        }
+    ]
+}

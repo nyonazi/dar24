@@ -1,0 +1,272 @@
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:187
+-keep class com.crashlytics.android.CrashlyticsInitProvider { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:51
+-keep class com.dar24.app.DarApplication { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:85
+-keep class com.dar24.app.activity.AboutActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:88
+-keep class com.dar24.app.activity.CommentActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:66
+-keep class com.dar24.app.activity.MainActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:79
+-keep class com.dar24.app.activity.NewsDetailActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:103
+-keep class com.dar24.app.activity.NewsRelatedDetailActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:100
+-keep class com.dar24.app.activity.PhotoViewActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:97
+-keep class com.dar24.app.activity.PlaylistVideoActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:76
+-keep class com.dar24.app.activity.SearchActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:82
+-keep class com.dar24.app.activity.SettingActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:94
+-keep class com.dar24.app.activity.SubscribeActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:91
+-keep class com.dar24.app.activity.WebActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:107
+-keep class com.dar24.app.notification.MyNotificationExtender { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:234
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:240
+-keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:272
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:215
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:229
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:210
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:225
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:193
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:246
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:258
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:179
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:266
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:164
+-keep class com.onesignal.BootUpReceiver { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:128
+-keep class com.onesignal.GcmBroadcastReceiver { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:142
+-keep class com.onesignal.GcmIntentJobService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:141
+-keep class com.onesignal.GcmIntentService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:139
+-keep class com.onesignal.NotificationOpenedReceiver { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:162
+-keep class com.onesignal.NotificationRestoreService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:158
+-keep class com.onesignal.PermissionsActivity { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:145
+-keep class com.onesignal.RestoreJobService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:148
+-keep class com.onesignal.RestoreKickoffJobService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:154
+-keep class com.onesignal.SyncJobService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:151
+-keep class com.onesignal.SyncService { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:170
+-keep class com.onesignal.UpgradeReceiver { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:116
+-keep class com.squareup.picasso.PicassoProvider { <init>(...); }
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/item_empty_footer.xml:2
+-keep class android.support.constraint.ConstraintLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1b73a0a24046e2a04b91b99613097663/res/layout/design_bottom_navigation_item.xml:26
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1b73a0a24046e2a04b91b99613097663/res/layout/design_navigation_item.xml:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1b73a0a24046e2a04b91b99613097663/res/layout/design_navigation_menu.xml:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1b73a0a24046e2a04b91b99613097663/res/layout/design_layout_snackbar_include.xml:18
+-keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/content_main.xml:10
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_search.xml:8
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_photo_view.xml:8
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_related_detail.xml:15
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_detail.xml:14
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_comment.xml:10
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_about.xml:8
+-keep class android.support.design.widget.AppBarLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1b73a0a24046e2a04b91b99613097663/res/layout/design_text_input_password_icon.xml:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1b73a0a24046e2a04b91b99613097663/res/layout/design_bottom_sheet_dialog.xml:26
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/content_main.xml:2
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_search.xml:2
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_photo_view.xml:2
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_related_detail.xml:9
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_detail.xml:8
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_comment.xml:2
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_about.xml:2
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1b73a0a24046e2a04b91b99613097663/res/layout/design_layout_snackbar.xml:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_video.xml:9
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/content_main.xml:39
+-keep class android.support.design.widget.TabLayout { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_subscribe.xml:8
+-keep class android.support.design.widget.TextInputLayout { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/content_main.xml:62
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_detail.xml:35
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_main.xml:1
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_news_detail.xml:2
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_menu.xml:38
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_related_detail.xml:37
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_video_playlist.xml:7
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_video_latest.xml:8
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_playlist_video.xml:7
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_news.xml:2
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_search.xml:36
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_related_detail.xml:31
+-keep class android.support.v4.widget.SwipeRefreshLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_list_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_listitem_multichoice.xml:17
+-keep class android.support.v7.widget.AppCompatCheckBox { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_listitem_singlechoice.xml:17
+-keep class android.support.v7.widget.AppCompatRadioButton { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/item_about.xml:7
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_screen_simple.xml:17
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_list_check.xml:39
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_list.xml:39
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_video_playlist.xml:11
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_video_latest.xml:12
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_playlist_video.xml:11
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_news_detail.xml:120
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_news.xml:36
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/fragment_menu.xml:48
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_setting.xml:2
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_search.xml:40
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_about.xml:22
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout-v26/abc_screen_toolbar.xml:37
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/content_main.xml:19
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_search.xml:12
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_photo_view.xml:12
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_related_detail.xml:20
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_detail.xml:19
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_comment.xml:14
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_about.xml:12
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_alert_dialog_title_material.xml:56
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6313de957f0b2f8517c8ba02fcbf956e/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/095e230db4b5dc99ebce022316e20ae0/res/layout/browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_stub_actionbuttons.xml:5
+-keep class com.afollestad.materialdialogs.internal.MDButton { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_progress_indeterminate_horizontal.xml:1
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_progress_indeterminate.xml:1
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_progress.xml:1
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_list_check.xml:1
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_list.xml:1
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_input_check.xml:1
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_input.xml:1
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_custom.xml:1
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_basic_check.xml:1
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/core-0.9.6.0.aar/d756b267222e71792a1ae2d8134970e0/res/layout/md_dialog_basic.xml:1
+-keep class com.afollestad.materialdialogs.internal.MDRootLayout { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_related_detail.xml:2
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_detail.xml:2
+-keep class com.flipboard.bottomsheet.BottomSheetLayout { <init>(...); }
+
+# Referenced at /home/naamini/.gradle/caches/transforms-1/files-1.1/bottomsheet-commons-1.5.3.aar/96e098914d893c1bc4db43c35fb5be2c/res/layout/sheet_image_grid_item.xml:2
+-keep class com.flipboard.bottomsheet.commons.ImagePickerSheetImageView { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_photo_view.xml:22
+-keep class com.github.chrisbanes.photoview.PhotoView { <init>(...); }
+
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/content_main.xml:67
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_news_detail.xml:42
+# Referenced at /home/naamini/AndroidStudioProjects/Dar24/app/src/main/res/layout/activity_comment.xml:52
+-keep class com.google.android.gms.ads.AdView { <init>(...); }
+

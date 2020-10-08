@@ -1,0 +1,23 @@
+#Internal package file, do not edit.
+#Wed Apr 10 12:32:03 EAT 2019
+2.base=/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
+0.path=fonts/Ubuntu-Light.ttf
+2.baseType=DIRECTORY
+3.base=/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/transforms/dexMerger/release/0
+2.set=ASSET
+1.path=crashlytics-build.properties
+4.base=/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
+count=5
+2.path=fonts/Ubuntu-Medium.ttf
+4.set=ASSET
+3.path=classes.dex
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=fonts/Ubuntu-Regular.ttf
+1.baseType=DIRECTORY
+0.base=/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
+0.baseType=DIRECTORY
+3.set=DEX
+1.base=/home/naamini/AndroidStudioProjects/Dar24/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
+4.baseType=DIRECTORY
+0.set=ASSET

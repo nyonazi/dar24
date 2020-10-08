@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "848280934100",
+    "firebase_url": "https://dar24-9a08e.firebaseio.com",
+    "project_id": "dar24-9a08e",
+    "storage_bucket": "dar24-9a08e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848280934100:android:89713eb84f5f62c8",
+        "android_client_info": {
+          "package_name": "com.dar24.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848280934100-jk1tlaukdaobte772m6ub9022ngsee1s.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "848280934100-jk1tlaukdaobte772m6ub9022ngsee1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoE1IT4euhdh4khok8H8QPe_zpMSpju24"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dar24.app">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".DarApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeLauncher">
+
+        <meta-data android:name="com.onesignal.NotificationOpened.DEFAULT" android:value="DISABLE" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7242052832694019~7514648899"/>
+
+        <activity android:name=".activity.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.SearchActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.NewsDetailActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.AboutActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.CommentActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.WebActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.SubscribeActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.PlaylistVideoActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.PhotoViewActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.NewsRelatedDetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <service
+            android:name=".notification.MyNotificationExtender"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
